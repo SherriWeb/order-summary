@@ -1,0 +1,90 @@
+.attribution { font-size: 11px; text-align: center; }
+ .attribution a { color: hsl(228, 45%, 44%); }
+
+body{
+    background-color:hsl(225, 100%, 94%);
+    background-image:url(images/pattern-background-desktop.svg) ;
+    background-repeat:repeat-x;
+    background-position: center-top;
+   background-position-y:top;
+    font-family: "Red Hat Display", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.container {
+    background-color: white;
+    width:400px;
+    height:600px;
+    margin:auto;
+    border-radius: 10px;
+    position: relative;
+    top:30px;
+}
+.main-img {
+    width:400px;
+    border-top-right-radius:10px;
+    border-top-left-radius:10px;
+}
+
+h2 {
+    text-align: center;
+    color:hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+
+p {
+   opacity: 0.3; 
+   margin-left:60px;
+    margin-right:50px;
+    text-align-last:center;
+
+}
+
+.content{
+    border:1px solid hsl(225, 100%, 98%);
+    border-radius: 10px;
+    background-color: hsl(225, 100%, 98%);
+    width:320px;
+    height:90px;
+    margin: auto;
+}
+.music-icon {
+    position: relative;
+    top:20px;
+    left:10px;
+
+}
+b{
+    margin-left: 20px;
+    margin-top:30px;
+    position: relative;
+    bottom:5px;
+}
+
+.price {
+    position: relative;
+    right:50px;
+    bottom:20px;
+}
+
+.link {
+    position: relative;
+    left:230px;
+    bottom:70px;
+}
+
+button {
+    background-color: hsl(245, 75%, 52%);
+    border-radius:10px;
+    width:320px;
+    height:40px;
+    text-align: center;
+    color:hsl(225, 100%, 98%);
+    box-shadow:0px 5px hsl(225, 100%, 98%);
+}
+
+button:hover{
+    background-color:hsl(225, 100%, 94%);
+    color:hsl(245, 75%, 52%);
+}
